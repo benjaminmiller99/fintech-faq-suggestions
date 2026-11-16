@@ -1,0 +1,20 @@
+{
+  "name": "fintech-faq-suggestions",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node --experimental-strip-types src/example.ts",
+    "test": "node --experimental-strip-types --test src/faq_suggestion.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.104.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT"
+}
